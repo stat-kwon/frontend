@@ -8,23 +8,110 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
 
-    <title>스파르타코딩클럽 | 1주차 숙제</title>
+    <title>스파르타코딩클럽 | 1week 숙제</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Jua', sans-serif;
+        }
+
+        .item-img {
+            width: 600px;
+            height: 400px;
+
+            background-image: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAzMjJfNzkg%2FMDAxNjE2Mzc2MzU1MTc0.wjO7TuiVmWVaLuNqcb4tfYlTHV3mVCxruHIh-FNERwog.4Ln3T5_h5VpCK-5_q7oJRDn82LPlw8486kDB4tLlPPsg.JPEG.scsw0823%2F%25BA%25BB%25C3%25BC.jpg&type=a340");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .item-desc {
+            width: 600px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .price {
+            font-size: 20px;
+        }
+
+        .item-order {
+            width: 600px;
+        }
+
+        .mybtn {
+            width: 100px;
+            margin: auto;
+            display: block;
+        }
+
+        .item-total {
+            width: 600px;
+            margin: auto;
+        }
+    </style>
+    <script>
+        function order(){
+            alert('주문이 완료 되었습니다.')
+        }
+    </script>
 </head>
-https://getbootstrap.com/docs/4.0/components/alerts/
+<div class="item-total">
+    <div class="item-img"></div>
+    <div class="item-desc">
+        <h1>컴퓨터를 팝니다 <span class="price">가격: 3,000원/개</span></h1>
+        <p class="price">이 컴퓨터는 사실 특별한 힘을 가지고 있습니다. 컴퓨터를 켜고 소원을 빌면 짜자잔 뭐든지 이뤄지게 된답니다. 하나 사가세요! 대나무 향이 아주 좋아요.</p>
+    </div>
+    <div class="item-order">
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text">주문자 이름</span>
+            </div>
+            <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect01">Options</label>
+            </div>
+            <select class="custom-select">
+                <option selected>-- 수량을 입력하세요. --</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text">주소</span>
+            </div>
+            <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text">전화번호</span>
+            </div>
+            <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <button type="button" onclick="order()" class="btn btn-primary mybtn">주문하기</button>
+    </div>
+</div>
 <body>
-    <h1>이걸로 시작해보죠!</h1>
 </body>
 
 </html>
+
+<!--부트스트랩 사이트-->
+<!--https://getbootstrap.com/docs/4.0/components/alerts/-->
