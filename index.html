@@ -54,8 +54,14 @@
         }
     </style>
     <script>
+        let cnt = 1;
         function hey() {
-            alert('재수없는 깜디새끼!!')
+            if (cnt % 2 == 0){
+                alert(cnt+'짝수입니다.')
+            } else {
+                alert(cnt+'홀수입니다.')
+            }
+            cnt += 1
         }
     </script>
 </head>
@@ -70,10 +76,10 @@
         </p>
     </div>
 
-    <div class="posting-box">
+    <div class="posting-box" id="post-box">
         <div class="form-group">
-            <label for="exampleInputEmail1">아티클 URL</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+            <label>아티클 URL</label>
+            <input type="email" class="form-control" id="article-url" aria-describedby="emailHelp"
                    placeholder="">
         </div>
         <div class="form-group">
@@ -83,7 +89,7 @@
         <button onclick="hey()" type="submit" class="btn btn-primary">기사저장</button>
     </div>
 
-    <div class="card-columns">
+    <div class="card-columns" id="cards-box">
         <div class="card">
             <img class="card-img-top"
                  src="https://cdn.crowdpic.net/list-thumb/thumb_l_4D73323FD32E748D69AE3C2514BB0046.jpg"
