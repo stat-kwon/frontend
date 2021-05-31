@@ -1,0 +1,96 @@
+[33mcommit a5e323ac122beb8585f193e29f33a09376b7b9c6[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Merge: 663df54 9b532fd
+Author: SEOLMIN KWON <stat_kwon@naver.com>
+Date:   Sun May 30 23:48:36 2021 +0900
+
+    Merge branch 'main' of https://github.com/stat-kwon/frontend
+
+[33mcommit 663df544b9232f27de8ea76446bc39db24c516d4[m
+Author: SEOLMIN KWON <stat_kwon@naver.com>
+Date:   Sun May 30 23:45:53 2021 +0900
+
+    login.html 연습
+
+[33mcommit 9b532fd2ec3e936160369fb2ef8d534140b62d2f[m
+Author: SEOLMIN KWON <stat_kwon@naver.com>
+Date:   Fri May 28 21:06:02 2021 +0900
+
+    JQuery 공부
+
+[33mcommit 560d0c8c52a7985395fd776b356c0d5598a45f19[m
+Author: SEOLMIN KWON <stat_kwon@naver.com>
+Date:   Thu May 27 23:32:46 2021 +0900
+
+    JQuery 연습
+
+[33mcommit 54b0bfcd19edfeb740d6bc48eed28b259c67ab3f[m
+Author: SEOLMIN KWON <stat_kwon@naver.com>
+Date:   Wed May 26 12:39:17 2021 +0900
+
+    JQuery 3가지 예제 연습하기
+
+[33mcommit ff47421dadb2526d4fc334be8b312a952ea11b7a[m
+Author: SEOLMIN KWON <stat_kwon@naver.com>
+Date:   Wed May 26 10:07:24 2021 +0900
+
+    JQeury로 block 기능 추가하기
+
+[33mcommit d11b36a82e24425c85cf875b64bd557a05c1e195[m
+Author: SEOLMIN KWON <stat_kwon@naver.com>
+Date:   Mon May 24 23:32:58 2021 +0900
+
+    HTML CSS Jquery 연습
+
+[33mcommit 3887cfe6c64b847d04a002e367af747ce536e369[m
+Author: SEOLMIN KWON <stat_kwon@naver.com>
+Date:   Sun May 23 19:08:19 2021 +0900
+
+    index.html 연습
+
+[33mcommit 08f9400c19116f2d90074dd69eb69bf4517873ab[m
+Author: SEOLMIN KWON <stat_kwon@naver.com>
+Date:   Sat May 22 08:44:46 2021 +0900
+
+    간단 쇼핑몰 HTML 만들기 실습
+
+[33mcommit 40d7d2f84551dc07f2b5103fa89baac7396c8ce0[m
+Author: SEOLMIN KWON <stat_kwon@naver.com>
+Date:   Sat May 22 06:37:22 2021 +0900
+
+    bootstrap 코드스니펫 저장
+
+[33mcommit cddcc13b34fc8ab11b705ac91d3055efcbeabb19[m
+Author: SEOLMIN KWON <stat_kwon@naver.com>
+Date:   Thu May 20 23:28:48 2021 +0900
+
+    prac.html에서 연습
+
+[33mcommit 9f2888a7c235e0d5ba36abd2bb0c2a3538f1d1c4[m
+Author: SEOLMIN KWON <stat_kwon@naver.com>
+Date:   Wed May 19 18:42:14 2021 +0900
+
+    index.html 가운데 boader 추가해보기
+
+[33mcommit 6d6b73cbf9856ab7e854cbcfe8a4a4601e87fc4c[m
+Author: SEOLMIN KWON <stat_kwon@naver.com>
+Date:   Wed May 19 18:17:25 2021 +0900
+
+    부트스트랩을 활용하여 게시판 만들기
+
+[33mcommit 8163353b94c01abdb303015672e2e8de8fc6ce3b[m
+Author: SEOLMIN KWON <stat_kwon@naver.com>
+Date:   Wed May 19 14:46:21 2021 +0900
+
+    css 여러가지 기초지식 배우기
+
+[33mcommit fabad152cc44d8975e5282d51b73ac193817071f[m
+Author: SEOLMIN KWON <stat_kwon@naver.com>
+Date:   Tue May 18 18:38:39 2021 +0900
+
+    css 기초 공부하기
+
+[33mcommit 80e7a0ad254eb7fbff865ca79f6c82e70a75b9cc[m
+Author: SEOLMIN KWON <stat_kwon@naver.com>
+Date:   Tue May 18 15:24:16 2021 +0900
+
+    initialize commit
